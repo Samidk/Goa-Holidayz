@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa Holidays</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .image-card {
+            margin: 20px;
+            box-sizing: border-box; /* Ensure padding and border are included in total width */
+            width: 100%; /* Default width for mobile screens */
+        }
+
+        .custom-image {
+            width: 50%; /* Make the image take up 100% of its container */
+            height: auto; /* Maintain aspect ratio */
+            object-fit: cover; /* Optional: Maintain aspect ratio */
+        }
+
+        @media (min-width: 300px) {
+            /* Adjust styling for larger screens, e.g., tablets and desktops */
+            .image-card {
+                width: 48%; /* Two images side by side */
+            }
+        }
+        .custom-image2 {
+            width: 10%; /* Make the image take up 100% of its container */
+            height: auto; /* Maintain aspect ratio */
+            object-fit: cover; /* Optional: Maintain aspect ratio */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Payment Options</h1>
+    <div class="image-container">
+        <div class="image-card">
+            <img class="custom-image2" src="logo.png" alt="Image 1">
+            <p>Goa Holidays</p>
+        </div>
+
+    <div class="image-container">
+        <div class="image-card">
+            <img class="custom-image" src="All.jpg" alt="Image 1">
+            <p>+91- 9112271702</p>
+        </div>
+
+        <div class="image-card">
+            <img class="custom-image" src="gpay.webp" alt="Image 2">
+            <p>+91- 9112271702</p>
+        </div>
+
+        <div class="image-card">
+            <img class="custom-image" src="paytm1.jpeg" alt="Image 2">
+            <p>+91- 9112271702</p>
+        </div>
+
+        <div class="image-card">
+            <img class="custom-image" src="phonepe1.png" alt="Image 2">
+            <p>+91- 9112271702</p>
+        </div>
+
+        
+
+
+        <!-- Add similar blocks for the remaining images -->
+    </div>
+</body>
+</html>
